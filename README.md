@@ -5,6 +5,7 @@
 2. [Instalación](#instalación)
 3. [Site Map](#site-map)
 4. [Maquetación](#maquetación)
+5. [Back End](#back-end)
 
 ---
 
@@ -18,27 +19,7 @@
 ---
 
 ## Instalación
-Pasos a ejecutar:
 
-* Clonar el proyecto:
-```
-git clone https://github.com/leoseq/paw_2021_grupo5.git
-```
-* Desde el directorio raiz del proyecto ejecutar el siguiente comando: 
-```
-composer install
-```
-* Copiar el archivo `.env.example` bajo el nombre `.env` y editarlo con los datos de la DB a conectarse:
-
-* Ejecutar la migrations:
-```
-./vendor/bin/phinx migrate -e development
-```
-
-* Levantar el servidor web stand alone desde el directorio raiz:
-```
-Ejecutar php -S localhost:8000 -t public
-```
  
 ---
 
@@ -49,3 +30,12 @@ Ejecutar php -S localhost:8000 -t public
 
 ## Maquetación 
 * [**Link a Figma**](https://www.figma.com/file/MK7rWjurfTGyPTFLBqy9gA/Wireframs?node-id=0%3A1)
+
+
+---
+
+## Back End 
+
+#### Modelo de Clases
+
+#### Modelo de Datos
