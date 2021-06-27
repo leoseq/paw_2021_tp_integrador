@@ -29,7 +29,7 @@
 ---
 
 ## Maquetación 
-* [**Link a Figma**](https://www.figma.com/file/MK7rWjurfTGyPTFLBqy9gA/Wireframs?node-id=0%3A1)
+* [**Link a Figma**](https://www.figma.com/file/w7MAlEaD7Pf19bQ0kJ47m8/Wireframs-TP-Integrador)
 
 
 ---
