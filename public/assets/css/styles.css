@@ -1,0 +1,76 @@
+:root {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+    --principal-color1: #00b3de;
+    --principal-color2: #003c70;
+    --secondary-color1: #8a8a8d;
+    --secondary-color2: #4f2c7f;
+    --background-card: #efefef;
+}
+
+@keyframes mySpinner {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+body {
+    margin: 0px;
+    background: #ffffff;
+
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 80px auto 80px;
+
+    grid-template-areas:
+    "header   header   header"
+    "main     main     main"
+    "footer   footer   footer";
+}
+
+header {
+    background: #ffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--principal-color2);
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+
+/*--------------------------                     MOBILE                              ------------------------------ */
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 9vh;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        margin-bottom: 4.5em;
+    }
+
+}

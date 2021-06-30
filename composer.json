@@ -1,0 +1,31 @@
+{
+    "name": "paw/grupo-5",
+    "description": "Proyecto Integrador - TPs PAW 2021",
+    "keywords": ["php", "mvc"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joaquin Bert",
+            "email": "joacobert39@gmail.com",
+            "role": "Creator / Main Developer"
+        },
+        {
+            "name": "Leonardo Sequeira",
+            "email": "leo.sequeira@hotmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">= 7.4.0",
+        "filp/whoops": "~2",
+        "monolog/monolog": "^2.2",
+        "vlucas/phpdotenv": "^5.3",
+        "robmorgan/phinx": "^0.12.7",
+        "twig/twig": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Paw\\" : "src/"
+        }
+    }
+}
