@@ -1,0 +1,21 @@
+<nav>
+    <ul>
+        <li><a href="/profesionales">Profesionales y Especialidades</a></li>
+        <li><a href="/obrasSociales">Obras Sociales</a></li>
+        <li><a href="/institucional">Institucional</a></li>
+        <li><a href="/noticias">Noticias</a></li>
+        <li><a href="/turneros">Turneros</a></li>
+
+        {% if session is empty %}
+            <li><a href="/login">Iniciar Sesión</a></li>            
+        {% else %}
+            <li><a href="/cerrarSession?idSession={{ session.idSession }}">Cerrar Sesión</a></li>
+        {% endif %}
+
+        {% if not session is empty %}                        
+            <li><a class="userName">{{ session.nombre }} {{ session.apellido }}</a></li>
+        {% endif %}
+        
+    </ul>
+
+</nav>
