@@ -17,6 +17,22 @@
 
 
 ## Instalación
+Pasos a ejecutar:
+
+* Clonar el proyecto:
+```
+git clone https://github.com/leoseq/paw_2021_tp_integrador.git
+```
+* Desde el directorio raiz del proyecto ejecutar el siguiente comando: 
+```
+composer install
+```
+* Copiar el archivo `.env.example` bajo el nombre `.env` y editarlo con los datos de la DB a conectarse:
+
+* Levantar el servidor web stand alone desde el directorio raiz:
+```
+Ejecutar php -S localhost:8000 -t public
+```
 
 
 ## Site Map
