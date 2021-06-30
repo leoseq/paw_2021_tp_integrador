@@ -7,7 +7,6 @@
 4. [Maquetación](#maquetación)
 5. [Back End](#back-end)
 
----
 
 ## Info del Grupo
 #### **_Autores:_**
@@ -16,26 +15,19 @@
 | Bert, Joaquin | 133168 |
 | Sequeira, Leonardo | 112776 |
 
----
 
 ## Instalación
 
- 
----
 
 ## Site Map
+* [**Link**](https://app.diagrams.net/#G11Uo1y6dJReA2d77mU4CXtSrVvg5UPN-x)
 
-
----
 
 ## Maquetación 
 * [**Link a Figma**](https://www.figma.com/file/w7MAlEaD7Pf19bQ0kJ47m8/Wireframs-TP-Integrador)
 
 
----
-
 ## Back End 
 
-#### Modelo de Clases
-
-#### Modelo de Datos
+* [**Modelo de Clases**](https://www.link.com)
+* [**Modelo de Datos**](https://www.link.com)
