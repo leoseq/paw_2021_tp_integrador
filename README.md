@@ -21,10 +21,11 @@
 
 ## Site Map
 * [**Link**](https://app.diagrams.net/#G11Uo1y6dJReA2d77mU4CXtSrVvg5UPN-x)
-
+![Site Map](https://github.com/leoseq/paw_2021_tp_integrador/blob/main//public/assets/images/SiteMap.png "Site Map")
 
 ## Maquetación 
 * [**Link a Figma**](https://www.figma.com/file/w7MAlEaD7Pf19bQ0kJ47m8/Wireframs-TP-Integrador)
+![Site Map](https://github.com/leoseq/paw_2021_tp_integrador/blob/main//public/assets/images/Diseño.png "Diseño")
 
 
 ## Back End 
