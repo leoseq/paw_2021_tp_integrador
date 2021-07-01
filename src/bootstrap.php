@@ -55,3 +55,4 @@ $router->get('/introduccion', 'PageController@introduccion');
 $router->get('/controles', 'PageController@controles');
 $router->get('/seleccion', 'PageController@seleccion');
 $router->get('/jugar', 'PageController@jugar');
+$router->get('/finJuego', 'PageController@finJuego');

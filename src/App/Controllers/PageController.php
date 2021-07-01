@@ -12,31 +12,43 @@ class PageController extends Controller
 
     public function index()
     {
-        $titulo = "Index";
-        $this->twigLoader("index.view.twig", compact("titulo"));
+        $tituloPage = "Index";
+        $tituloView = "JUEGO DEL PARAMESIO"; 
+        $this->twigLoader("index.view.twig", compact("tituloPage", "tituloView"));
     }
 
     public function introduccion()
     {
-        $titulo = "Introduccion";
-        $this->twigLoader("introduccion.view.twig", compact("titulo"));
+        $tituloPage = "Introduccion";
+        $tituloView = "VIDEO/ANIMACIÓN DEL PARAMESIO"; 
+        $this->twigLoader("introduccion.view.twig", compact("tituloPage", "tituloView"));
     }
 
     public function controles()
     {
-        $titulo = "Controles";
-        $this->twigLoader("controles.view.twig", compact("titulo"));
+        $tituloPage = "Controles";
+        $tituloView = "CONTROLES"; 
+        $this->twigLoader("controles.view.twig", compact("tituloPage", "tituloView"));
     }
 
     public function seleccion()
     {
-        $titulo = "Seleccion";
-        $this->twigLoader("seleccion.view.twig", compact("titulo"));
+        $tituloPage = "Seleccion";
+        $tituloView = "SELECCIONÁ TU JUGADOR"; 
+        $this->twigLoader("seleccion.view.twig", compact("tituloPage", "tituloView"));
     }
 
     public function jugar()
     {
-        $titulo = "Jugar";
-        $this->twigLoader("jugar.view.twig", compact("titulo"));
+        $tituloPage = "Jugar";
+        $tituloView = "JUEGO"; 
+        $this->twigLoader("jugar.view.twig", compact("tituloPage", "tituloView"));
+    }
+
+    public function finJuego()
+    {
+        $tituloPage = "Juego Finalizado";
+        $tituloView = "RESULTADOS"; 
+        $this->twigLoader("finJuego.view.twig", compact("tituloPage", "tituloView"));
     }
 }

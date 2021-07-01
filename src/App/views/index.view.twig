@@ -1,1 +1,12 @@
 {% extends "parts/base.view.twig" %}
+
+{% block main %}
+
+    {{ parent() }}
+
+    <img class="bicho" src="/assets/images/svg/germenes.svg">
+    <a href="/seleccion" class="buttonPrincipal">ENTRAR</a>
+    <img class="bicho" src="/assets/images/svg/paramecio.svg">
+    <img class="bicho" src="/assets/images/svg/bacterias.svg">
+    
+{% endblock %}

@@ -1,3 +1,15 @@
+.back-icon-50 {
+  background-image: url(../images/iconos/back.png);
+  height: 50px;
+  width: 50px;
+  background-position: 0 0;
+  display: inline-block;
+  background-repeat: no-repeat;
+}
+
+
+
+
 .instagram-icon-24 {
   background-image: url(../images/iconos/instagram-36.png);
   height: 36px;

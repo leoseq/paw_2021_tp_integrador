@@ -21,56 +21,63 @@
     }
 }
 
+
+
 body {
-    margin: 0px;
-    background: #ffffff;
-
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 80px auto 80px;
-
-    grid-template-areas:
-    "header   header   header"
-    "main     main     main"
-    "footer   footer   footer";
-}
-
-header {
-    background: #ffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid var(--principal-color2);
-    grid-area: header;
+    background-image: url("../images/fondo2.jpg");
+    background-size: 100% 100%;
 }
 
 main {
-    grid-area: main;
+    display: flex;
+    flex-direction: column;
 }
 
-footer {
-    grid-area: footer;
+a {
+    text-decoration: none;
 }
 
+
+.buttonPrincipal {
+    height: 2.5em;
+    width: 20vw;
+    margin: 2vw;
+    color: var(--background-card);
+    background: var(--principal-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid var(--principal-color2);
+    font-weight: bold;
+    transition: all 1s ease;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.buttonPrincipal:hover {
+    height: 2.5em;
+    width: 20vw;
+    color: var(--background-card);
+    background: var(--principal-color2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: var(--principal-color2);
+    background: #ffff;
+    border: 2px solid var(--principal-color2);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bicho {
+    height: 20vh;
+    
+}
 
 
 /*--------------------------                     MOBILE                              ------------------------------ */
 
 @media screen and (max-width: 768px) {
-    header {
-        height: 9vh;
-        display: flex;
-        justify-content: space-evenly;
-    }
-
-    body {
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer {
-        margin-bottom: 4.5em;
-    }
 
 }

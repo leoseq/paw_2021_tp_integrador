@@ -1,1 +1,11 @@
 {% extends "parts/base.view.twig" %}
+
+{% block main %}
+
+    {{ parent() }}
+    
+    <a href="/" class="buttonPrincipal">BACK</a>
+    <a href="/controles" class="buttonPrincipal">CONTROLES</a>
+    <a href="/jugar" class="buttonPrincipal">JUGAR</a>
+    
+{% endblock %}
